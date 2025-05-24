@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../blocs/album_bloc.dart';
-import '../blocs/album_event.dart';
-import '../blocs/album_state.dart';
+import '../../data/blocs/album_bloc.dart';
+import '../../data/blocs/album_event.dart';
+import '../../data/blocs/album_state.dart';
+
 import '../widgets/album_list_item.dart';
 import '../widgets/loading_widget.dart';
 import '../widgets/error_widget.dart';
