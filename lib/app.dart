@@ -5,12 +5,13 @@ import 'dart:io';
 
 import 'core/api/api_client.dart';
 import 'core/router/app_router.dart';
-import 'feature/album/data/blocs/album_bloc.dart';
-import 'feature/album/data/blocs/album_event.dart';
+
 import 'feature/album/data/datasources/remote.dart';
 import 'feature/album/data/repositories/album_repository_impl.dart';
 import 'feature/album/domain/usecases/get_albums.dart';
 import 'feature/album/domain/usecases/get_photos.dart';
+import 'feature/album/presentation/blocs/album_bloc.dart';
+import 'feature/album/presentation/blocs/album_event.dart';
 
 
 class MyApp extends StatefulWidget {
